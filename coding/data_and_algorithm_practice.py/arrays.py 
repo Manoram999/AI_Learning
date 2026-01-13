@@ -1,0 +1,26 @@
+
+exp = [2200,2350,2600,2130,2190]
+
+print(len(exp))
+print("How much extra spend in feb then january",exp[1]-exp[0])
+
+
+print(f"The total expense in first quater is {exp[0]+exp[1]+exp[2]}")
+
+print(f"Did I spend 2000 in any month? {2000 in exp}")
+
+exp.append(1980)
+print("june month",exp)
+
+exp[3] = exp[3] - 200
+print(f"corrected after refund for the month of April {exp}")
+
+
+
+
+#Question 2 
+
+heros=['spider man','thor','hulk','iron man','captain america']
+
+
+print(heros)
